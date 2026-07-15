@@ -36,3 +36,23 @@ GROUP BY p.category
 Order BY total_revenue DESС;
 
 --1.4. Die Liste und Anzahl der Kunden, deren Gesamtausgaben die durchschnittlichen Ausgaben über die gesamte Datenbank hinweg übersteigen. Welchen Anteil haben sie am Gesamtumsatz?
+WITH customer_spent AS (
+	SELECT	customer_id,
+  			SUM(net_amount) AS total_spent
+  	FROM orders
+  	WHERE is_returned = 0
+  	GROUP BY customer_id
+)
+SELECT	COUNT(*) AS high_spent_customer_cnt,
+		ROUND(100.0 * SUM(total_spent) / (SELECT SUM(total_spent) FROM customer_spent), 2) AS revenue_share_pct
+FROM customer_spent
+WHERE total_spent > (SELECT AVG(total_spent) FROM customer_spent)
+
+--1.5. Berechnen Sie für jeden Marketingkanal Folgendes: Gesamtbudget, gesamten zugeordneten Umsatz und ROI (Umsatz / Budget)
+SELECT	channel,
+		SUM(budget) total_channel_budget,
+        SUM(attributed_reven) channel_revenue,
+        ROUND(1.0 * SUM(attributed_reven) / NULLIF(SUM(budget), 0), 2) AS ROI
+FROM marketing
+GROUP BY channel
+ORDER BY ROI DESC;
