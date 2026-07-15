@@ -15,13 +15,13 @@ ORDER BY c.region, o.order_year;
 SELECT	c.customer_id,
 		c.region, 
 		acquisition_chan AS acq_channel,
-        SUM(o.net_amount) AS total_spent,
+        ROUND(SUM(o.net_amount), 2) AS customer_revenue,
         COUNT(o.order_id) AS orders_cnt
 FROM orders o
 JOIN customers c USING(customer_id)
 WHERE o.is_returned = 0
 GROUP BY c.customer_id, c.region, acq_channel
-ORDER BY total_spent DESC, orders_cnt DESC
+ORDER BY customer_revenue DESC, orders_cnt DESC
 LIMIT 10;
 
 --1.3. Gesamtumsatz, durchschnittliche Marge (margin_pct) und Retourenquote für jede Produktkategorie
