@@ -80,7 +80,7 @@ Unternehmensleistung → Einflussfaktoren → Handlungsempfehlungen
 Nach kurzer Betrachtung des Dashboards sollten folgende Kernaussagen deutlich werden:
 
 - 📈 Das Unternehmen wächst kontinuierlich und erzielt einen Gesamtumsatz von rund 3 Mio. USD.
-[21.07.2026 21:22] Надія Іващук: - 🎯 Organic und Email Marketing gehören zu den effizientesten Marketingkanälen, während Paid Search den niedrigsten ROI aufweist.
+- 🎯 Organic und Email Marketing gehören zu den effizientesten Marketingkanälen, während Paid Search den niedrigsten ROI aufweist.
 - 👥 Die Top-5-%-Kunden generieren 34,6 % des Gesamtumsatzes und stellen damit eine strategisch besonders wertvolle Kundengruppe dar.
 
 ---
