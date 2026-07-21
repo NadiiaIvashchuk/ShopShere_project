@@ -135,6 +135,8 @@ Die Bewertung basiert ausschließlich auf dem Return on Investment der Marketing
 
 ## Fazit
 
+
+
 Die Analyse zeigt, dass die aktuelle Budgetverteilung nicht vollständig der Effizienz der Marketingkanäle entspricht. Besonders Organic und Email Marketing erzielen überdurchschnittliche Ergebnisse, während Paid Search trotz höherer Investitionen den geringsten ROI aufweist. Eine performanceorientierte Budgetallokation bietet das Potenzial, die Marketingeffizienz nachhaltig zu steigern.
 
 
