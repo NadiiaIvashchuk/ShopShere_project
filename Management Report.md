@@ -101,10 +101,10 @@ Die Analyse vergleicht die Marketingkanäle anhand ihres Return on Investment (R
 
 | Kennzahl | Ergebnis |
 |-----------|----------|
-| Höchster ROI | Organic (8,02) |
-| Niedrigster ROI | Paid Search |
-| Überdurchschnittlicher ROI | Organic, Email, Influencer |
-| Unterdurchschnittlicher ROI | Referral, Social Ads, Paid Search |
+| Höchster ROI | Organic (8.02) |
+| Niedrigster ROI | Paid Search (1.33) |
+| Überdurchschnittlicher ROI | Organic, Email (6.50), Influencer (4.62)|
+| Unterdurchschnittlicher ROI | Referral (3.57), Social Ads (2.06), Paid Search |
 | Höchstes Optimierungspotenzial | Paid Search |
 
 ## Wesentliche Beobachtungen
