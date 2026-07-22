@@ -92,8 +92,8 @@ Nach kurzer Betrachtung des Dashboards sollten folgende Kernaussagen deutlich we
 Welche Marketingkanäle liefern den höchsten Return on Investment und wie sollte das Marketingbudget künftig verteilt werden, um die Marketingeffizienz zu steigern?
 
 ## Analyse
-
 > 📷 Abbildung 1: Marketingbudget vs. ROI
+<img width="858" height="779" alt="image" src="https://github.com/user-attachments/assets/a461421d-6bb2-44af-b6f0-af29718100ea" />
 
 Die Analyse vergleicht die Marketingkanäle anhand ihres Return on Investment (ROI) und des eingesetzten Marketingbudgets. Die gestrichelten Referenzlinien markieren den durchschnittlichen ROI sowie das durchschnittliche Budget und ermöglichen eine schnelle Identifikation leistungsstarker und ineffizienter Kanäle.
 
@@ -103,9 +103,9 @@ Die Analyse vergleicht die Marketingkanäle anhand ihres Return on Investment (R
 |-----------|----------|
 | Höchster ROI | Organic (8.02) |
 | Niedrigster ROI | Paid Search (1.33) |
-| Überdurchschnittlicher ROI | Organic, Email (6.50), Influencer (4.62)|
-| Unterdurchschnittlicher ROI | Referral (3.57), Social Ads (2.06), Paid Search |
-| Höchstes Optimierungspotenzial | Paid Search |
+| Überdurchschnittlicher ROI | Organic (8.02), Email (6.50), Influencer (4.62) 
+| Unterdurchschnittlicher ROI | Referral (3.57), Social Ads (2.06), Paid Search (1.33) |
+| Höchstes Optimierungspotenzial | Paid Search (1.33) |
 
 ## Wesentliche Beobachtungen
 
