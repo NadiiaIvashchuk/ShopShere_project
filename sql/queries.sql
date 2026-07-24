@@ -89,6 +89,43 @@ FROM (
 GROUP BY bucket
 ORDER BY bucket;
 
+-- 5% vs Andere Kunde
+WITH customer_stats AS (
+    SELECT
+        customer_id,
+        SUM(net_amount) AS revenue,
+        COUNT(order_id) AS orders_cnt,
+        AVG(net_amount) AS avg_order_value
+    FROM orders
+    WHERE is_returned = 0
+    GROUP BY customer_id
+),
+ranked_customers AS (
+    SELECT
+        *,
+        CASE
+            WHEN CAST(
+                    ((ROW_NUMBER() OVER (ORDER BY revenue DESC) - 1)
+                    * 20.0
+                    / COUNT(*) OVER ()) AS INTEGER
+                 ) + 1 = 1
+            THEN 'TOP 5%'
+            ELSE 'Others'
+        END AS customer_group
+    FROM customer_stats
+)
+SELECT
+    customer_group,
+    COUNT(*) AS customers,
+    ROUND(SUM(revenue) * 100.0 / SUM(SUM(revenue)) OVER(),2) AS revenue_share,
+    ROUND(SUM(revenue),2) AS total_revenue,
+    ROUND(AVG(revenue),2) AS revenue_per_customer,
+    ROUND(AVG(avg_order_value),2) AS avg_order_value,
+    ROUND(AVG(orders_cnt),2) AS avg_orders_per_customer
+FROM ranked_customers
+GROUP BY customer_group;
+
+
 -- Umsatzanalyse nach Gerätetyp
 SELECT
     device,
@@ -206,3 +243,41 @@ CASE
     WHEN age_group='45–54' THEN 4
     ELSE 5
 END;
+
+-- A/B Test
+SELECT	ab_variant,
+		COUNT(*) AS orders,
+        ROUND(AVG(net_amount), 2) AS avg_order_value
+FROM orders
+WHERE ab_variant IN('A', 'B')
+GROUP BY ab_variant;
+
+-- A/B Test 4 Gruppen
+WITH customer_orders AS (
+    SELECT
+        o.customer_id,
+        o.ab_variant,
+        o.net_amount,
+        o.order_date,
+        c.signup_date,
+        MIN(o.order_date) OVER (PARTITION BY o.customer_id
+        ) AS first_order_date
+    FROM orders o
+    JOIN customers c
+        ON o.customer_id = c.customer_id
+   
+)
+
+SELECT	ab_variant,
+		CASE
+        	WHEN order_date = first_order_date 
+            	AND julianday(order_date) - julianday(signup_date) <= 60
+        	THEN 'Neu'
+        	ELSE 'Wiederkehrend'
+    	END AS customer_type,
+		COUNT(*) AS orders,
+		ROUND(AVG(net_amount),2) AS avg_order_value
+FROM customer_orders
+WHERE ab_variant IN ('A','B')
+GROUP BY ab_variant, customer_type
+ORDER BY customer_type, ab_variant;
