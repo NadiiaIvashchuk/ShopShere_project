@@ -321,4 +321,112 @@ Die Ergebnisse sprechen dafür, Ressourcen gezielt auf margenstarke und gleichze
 Die Analyse widerlegt die Annahme, dass die umsatzstärkste Kategorie automatisch den höchsten wirtschaftlichen Beitrag leistet. Während Electronics vor allem als Umsatztreiber fungiert, überzeugen Beauty und Home & Kitchen durch ihre deutlich attraktivere Profitabilität. Für eine nachhaltige Unternehmensentwicklung sollten zukünftige Sortiments- und Investitionsentscheidungen auf einer ganzheitlichen Bewertung aus Umsatz, Marge und Retourenquote basieren.
 
 
+# Case C. Rabattstrategie und Kundenbindung
 
+## Management Fragestellung
+
+Beeinflussen hohe Rabatte die langfristige Kundenbindung?
+
+Ziel dieser Analyse ist es zu untersuchen, ob Kunden mit hohen durchschnittlichen Rabatten häufiger oder seltener erneut bestellen als Kunden mit niedrigeren Rabatten.
+
+---
+
+## Executive Insight
+
+Bereits die Analyse der Rabattstufen zeigte, dass höhere Rabatte weder den Bestellwert noch das Bestellvolumen nachhaltig steigern.
+
+Die anschließende Kundenanalyse ergänzt dieses Bild: Kunden mit einem durchschnittlichen Rabatt von über 20 % tätigen im Mittel lediglich 2,11 Bestellungen, während alle übrigen Kunden durchschnittlich 4,40 Bestellungen aufweisen.
+
+Die Ergebnisse sprechen dafür, dass hohe Rabatte kurzfristig keinen erkennbaren Mehrwert schaffen und gleichzeitig mit einer geringeren Kundenbindung verbunden sind.
+
+---
+
+## Analyse
+
+Die Bewertung erfolgte in zwei Schritten.
+
+### 1. Kurzfristige Wirkung von Rabatten
+
+Zunächst wurde untersucht, wie sich unterschiedliche Rabattstufen auf Bestellvolumen und durchschnittlichen Bestellwert auswirken.
+
+### Visualisierung
+
+*Dashboard: Rabatte vs. Bestellwert*
+
+<img width="602" height="767" alt="image" src="https://github.com/user-attachments/assets/1c41d443-6b6b-46eb-bea4-858900cc9c9b" />
+
+
+Die Analyse zeigt, dass höhere Rabatte nicht zu höheren durchschnittlichen Bestellwerten führen. Gleichzeitig steigt auch die Anzahl der Bestellungen nicht proportional mit zunehmenden Rabatten.
+
+---
+
+### 2. Langfristige Wirkung auf die Kundenbindung
+
+Im zweiten Schritt wurden die Kunden anhand ihres durchschnittlichen persönlichen Rabattniveaus in zwei Gruppen eingeteilt:
+
+- High Discount (>20 %)
+- Regular Customers (≤20 %)
+
+Für beide Gruppen wurde anschließend die durchschnittliche Anzahl der Bestellungen pro Kunde berechnet.
+
+### Visualisierung
+
+*Dashboard: Kundenbindung nach Rabattverhalten*
+
+<img width="1234" height="203" alt="image" src="https://github.com/user-attachments/assets/78c32647-0acf-4713-9601-98dbdbb023ec" />
+
+
+---
+
+## Management Snapshot
+
+| Kundengruppe | Durchschnittlicher Rabatt | Bestellungen pro Kunde |
+|--------------|--------------------------:|-----------------------:|
+| Regular Customers | 4,41 % | 4,40 |
+| High Discount (>20 %) | 29,22 % | 2,11 |
+
+---
+
+## Interpretation
+
+Die Kombination beider Analysen liefert ein konsistentes Bild.
+
+Einerseits erhöhen hohe Rabatte den durchschnittlichen Bestellwert nicht. Andererseits zeigen stark rabattorientierte Kunden eine deutlich geringere Wiederkaufsaktivität.
+
+Damit liefern hohe Rabatte in diesem Datensatz weder einen klaren kurzfristigen noch einen langfristigen Vorteil.
+
+---
+
+## Wesentliche Erkenntnisse
+
+- Höhere Rabatte steigern den durchschnittlichen Bestellwert nicht.
+- Rabattorientierte Kunden bestellen langfristig deutlich seltener.
+- Preisnachlässe allein scheinen kein nachhaltiges Instrument zur Steigerung der Kundenloyalität zu sein.
+
+---
+
+## Geschäftliche Bewertung
+
+Die Ergebnisse sprechen dafür, Rabattaktionen gezielter einzusetzen und stärker auf langfristige Kundenbindung statt auf kurzfristige Absatzsteigerung auszurichten.
+
+---
+
+## Handlungsempfehlungen
+
+- Rabatte gezielt für die Neukundengewinnung oder saisonale Kampagnen einsetzen.
+- Stammkunden stärker über Loyalty-Programme und personalisierte Angebote binden.
+- Die Profitabilität von Kunden mit hohen Rabattniveaus regelmäßig überwachen.
+
+---
+
+## Risiken und Annahmen
+
+Die Analyse zeigt statistische Zusammenhänge, erlaubt jedoch keine Aussage über eine ursächliche Wirkung von Rabatten auf das Bestellverhalten. Weitere Einflussfaktoren wie Produkttyp, Marketingkanal oder Kundensegment wurden in dieser Auswertung nicht berücksichtigt.
+
+---
+
+## Fazit
+
+Die beiden Analysen ergänzen sich zu einem gemeinsamen Management-Insight:
+
+Hohe Rabatte zeigen in diesem Datensatz weder einen nachhaltigen positiven Effekt auf den Bestellwert noch auf die Kundenbindung. Eine langfristig erfolgreiche Rabattstrategie sollte daher gezielt eingesetzt und durch weitere Maßnahmen zur Kundenbindung ergänzt werden.
