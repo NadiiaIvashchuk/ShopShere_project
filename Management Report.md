@@ -2,22 +2,33 @@
 
 # ShopSphere Marketplace Performance Dashboard
 
----
+# Inhalt
 
-# Inhaltsverzeichnis
+1. Projektübersicht
+   - Zielsetzung
+   - Verwendete Technologien
 
-- [1. Projektübersicht](#1-projektübersicht)
-- [2. Management Summary](#2-management-summary)
-- [3. Dashboard-Architektur](#3-dashboard-architektur)
-- [4. Optimierung des Marketingbudgets](#4-optimierung-des-marketingbudgets)
-- [5. Profitabilität der Produktkategorien](#5-profitabilität-der-produktkategorien)
-- [6. Customer Lifetime Value nach Akquisekanal](#6-customer-lifetime-value-nach-akquisekanal)
-- [7. Rabattstrategie und Kundenbindung](#7-rabattstrategie-und-kundenbindung)
-- [8. Analyse der Top-5-%-Kunden](#8-analyse-der-top-5--kunden)
-- [9. Strategische Handlungsempfehlungen](#9-strategische-handlungsempfehlungen)
-- [10. Grenzen der Analyse](#10-grenzen-der-analyse)
+2. Management Summary
 
----
+3. Dashboard-Konzept
+   - KPI-Übersicht
+   - Dashboard-Struktur
+   - Interaktive Funktionen
+
+4. Strategische Geschäftsanalysen
+   4.1 Marketingbudget optimal verteilen
+   4.2 Produktportfolio strategisch bewerten
+   4.3 Rabattstrategie und Kundenbindung
+   4.4 Umsatzkonzentration und TOP-5-%-Kunden
+   4.5 A/B-Test des Checkout-Designs
+   4.6 Zusätzliche Analyse: Versandoptionen
+   4.7 Zusätzliche Analyse: Geräteperformance
+
+5. Strategische Empfehlungen
+
+6. Grenzen der Analyse
+
+
 
 # 1. Projektübersicht
 
@@ -39,21 +50,24 @@ Die Analyse basiert auf einem simulierten E-Commerce-Datensatz ShopSphere Market
 
 ---
 
+
 # 2. Management Summary
 
 Dieses Dashboard liefert einen kompakten Überblick über die Geschäftsentwicklung des ShopSphere Marketplace und identifiziert die wichtigsten Hebel zur Umsatz- und Profitabilitätssteigerung.
 
 Die Analyse zeigt folgende zentrale Erkenntnisse:
 
-- Der Gesamtumsatz beträgt rund 3 Mio. USD, begleitet von einem kontinuierlichen Umsatzwachstum und einer stabilen Anzahl an Bestellungen.
-- Marketingkanäle unterscheiden sich deutlich hinsichtlich ihrer Effizienz. Organische Kanäle erzielen den höchsten ROI, während Paid Search trotz hoher Investitionen unterdurchschnittliche Ergebnisse liefert.
-- Der Umsatz ist stark auf wenige Kunden konzentriert: Die Top-5-%-Kunden generieren 34,6 % des Gesamtumsatzes.
-- Die Produktkategorie Beauty weist die höchste Gewinnmarge auf, obwohl sie nicht den höchsten Umsatz erzielt.
-- Höhere Rabatte führen nicht zu höheren Bestellwerten und sollten daher gezielter eingesetzt werden.
+- Der Gesamtumsatz beträgt rund 3 Mio. USD, begleitet von einem kontinuierlichen Umsatzwachstum und einer stabilen Anzahl an Bestellungen
+- Die Umsatzentwicklung weist eine ausgeprägte saisonale Spitze zum Jahresende auf. Besonders im Dezember steigt der Umsatz deutlich an, weshalb Marketing-, Logistik- und Lagerkapazitäten frühzeitig auf diese Hochphase vorbereitet werden sollten
+- Marketingkanäle unterscheiden sich deutlich hinsichtlich ihrer Effizienz. Organische Kanäle erzielen den höchsten ROI, während Paid Search trotz hoher Investitionen unterdurchschnittliche Ergebnisse liefert
+- Der Umsatz ist stark auf wenige Kunden konzentriert: Die Top-5-%-Kunden generieren 34,6 % des Gesamtumsatzes
+- Die Produktkategorie Beauty weist die höchste Gewinnmarge auf, obwohl sie nicht den höchsten Umsatz erzielt
+- Höhere Rabatte führen nicht zu höheren Bestellwerten und sollten daher gezielter eingesetzt werden
 
-Die Ergebnisse bilden die Grundlage für konkrete Handlungsempfehlungen zur Optimierung des Marketingbudgets, der Produktstrategie und des Kundenmanagements.
+Die Ergebnisse bilden die Grundlage für konkrete Handlungsempfehlungen zur Optimierung des Marketingbudgets, der Produktstrategie und des Kundenmanagements
 
 ---
+
 
 # 3. Dashboard-Architektur
 
@@ -75,16 +89,17 @@ Unternehmensleistung → Einflussfaktoren → Handlungsempfehlungen
 
 ---
 
-# 4. 
-# Case A. Marketingbudget optimal verteilen
 
-## Management Fragestellung
+# 4. Strategische Geschäfsanalyse
+## Case A. Marketingbudget optimal verteilen
+
+### Management Fragestellung
 
 Wie sollte das Marketingbudget zukünftig auf die einzelnen Akquisitionskanäle verteilt werden, wenn sowohl die kurzfristige Kampagneneffizienz (ROI) als auch der langfristige Kundenwert (Customer Lifetime Value, LTV) berücksichtigt werden?
 
 ---
 
-## Executive Insight
+### Executive Insight
 
 Die Analyse zeigt, dass Marketingkanäle hinsichtlich ihrer kurzfristigen Effizienz und ihres langfristigen Kundenwerts deutliche Unterschiede aufweisen. Während einzelne Kanäle einen hohen Return on Investment erzielen, schaffen andere besonders wertvolle Kundenbeziehungen über den gesamten Kundenlebenszyklus. Eine nachhaltige Budgetallokation sollte daher beide Kennzahlen gemeinsam berücksichtigen.
 
@@ -92,7 +107,7 @@ Die Analyse zeigt, dass Marketingkanäle hinsichtlich ihrer kurzfristigen Effizi
 
 ### 1. ROI-Analyse
 
-## Zielsetzung
+### Zielsetzung
 
 Bewertung der Marketingkanäle anhand ihres Return on Investment sowie des eingesetzten Marketingbudgets.
 
@@ -121,7 +136,7 @@ Demgegenüber weisen Paid Search und Social Ads trotz vergleichsweise hoher Budg
 
 ### 2. Customer Lifetime Value (LTV)
 
-## Zielsetzung
+### Zielsetzung
 
 Bewertung der langfristigen Wirtschaftlichkeit der gewonnenen Kunden je Akquisitionskanal.
 
@@ -164,7 +179,7 @@ Die isolierte Betrachtung des ROI reicht für strategische Budgetentscheidungen 
 
 ---
 
-# Wesentliche Erkenntnisse
+### Wesentliche Erkenntnisse
 
 - ROI und Customer Lifetime Value zeigen insgesamt eine hohe Übereinstimmung.
 - Organic Marketing verbindet den höchsten ROI mit einem überdurchschnittlichen Customer Lifetime Value.
@@ -175,7 +190,7 @@ Die isolierte Betrachtung des ROI reicht für strategische Budgetentscheidungen 
 
 ---
 
-# Geschäftliche Bewertung
+### Geschäftliche Bewertung
 
 Für strategische Budgetentscheidungen sollte der Return on Investment nicht isoliert betrachtet werden.
 
@@ -184,7 +199,7 @@ Besonders Organic Marketing, Influencer-Marketing und Referral überzeugen sowoh
 
 ---
 
-# Handlungsempfehlungen
+### Handlungsempfehlungen
 
 - Marketingbudget für Organic Marketing weiter ausbauen.
 - Investitionen in Influencer-Marketing erhöhen, da hier die wertvollsten Kunden gewonnen werden.
@@ -195,7 +210,7 @@ Besonders Organic Marketing, Influencer-Marketing und Referral überzeugen sowoh
 
 ---
 
-# Risiken und Annahmen
+### Risiken und Annahmen
 
 - Die Analyse basiert auf historischen Kampagnendaten und setzt vergleichbare Marktbedingungen voraus.
 - Der Customer Lifetime Value jüngerer Kundengruppen könnte aufgrund des begrenzten Beobachtungszeitraums unterschätzt sein.
@@ -204,20 +219,21 @@ Besonders Organic Marketing, Influencer-Marketing und Referral überzeugen sowoh
 
 ---
 
-# Fazit
+### Fazit
 
 Die kombinierte Betrachtung von ROI und Customer Lifetime Value liefert eine belastbare Entscheidungsgrundlage für die zukünftige Marketingstrategie. Die Ergebnisse sprechen eindeutig für eine stärkere Fokussierung auf Organic Marketing, Influencer-Marketing und Referral-Programme, während Paid Search und Social Ads hinsichtlich ihrer Wirtschaftlichkeit konsequent optimiert beziehungsweise kritisch hinterfragt werden sollten.
 
 
-# Case B. Produktportfolio strategisch bewerten
 
-## Management Fragestellung
+## Case B. Produktportfolio strategisch bewerten
+
+### Management Fragestellung
 
 Welche Produktkategorien schaffen den größten wirtschaftlichen Mehrwert? Welche Kategorien erzeugen lediglich hohe Umsätze und welche besitzen das größte strategische Wachstumspotenzial?
 
 ---
 
-## Management Summary
+### Management Summary
 
 Die Analyse zeigt, dass hohe Umsätze nicht zwangsläufig eine hohe Profitabilität bedeuten. Während Electronics den Großteil des Gesamtumsatzes generiert, weist die Kategorie gleichzeitig die niedrigste Marge sowie eine überdurchschnittlich hohe Retourenquote auf. Im Gegensatz dazu erzielt Beauty trotz vergleichsweise geringer Umsätze die höchste Marge bei gleichzeitig niedriger Retourenquote und stellt damit den attraktivsten Wachstumskandidaten innerhalb des Produktportfolios dar.
 
@@ -225,7 +241,7 @@ Die Analyse zeigt, dass hohe Umsätze nicht zwangsläufig eine hohe Profitabilit
 
 ### 1. Analyse der Produktkategorien
 
-## Zielsetzung
+### Zielsetzung
 
 Bewertung der Produktkategorien anhand von drei zentralen Leistungskennzahlen:
 
@@ -264,7 +280,7 @@ Home & Kitchen zeigt das ausgewogenste Verhältnis zwischen Umsatz, Profitabilit
 
 ---
 
-# Portfolioklassifizierung
+### Portfolioklassifizierung
 
 | Kategorie | Strategische Rolle |
 |------------|-------------------|
@@ -278,7 +294,7 @@ Home & Kitchen zeigt das ausgewogenste Verhältnis zwischen Umsatz, Profitabilit
 
 ---
 
-# Wesentliche Erkenntnisse
+### Wesentliche Erkenntnisse
 
 - Hohe Umsätze sind kein verlässlicher Indikator für hohe Profitabilität.
 - Electronics erzeugt den größten Umsatz, weist jedoch die niedrigste Marge sowie die höchste Retourenquote auf.
@@ -289,7 +305,7 @@ Home & Kitchen zeigt das ausgewogenste Verhältnis zwischen Umsatz, Profitabilit
 
 ---
 
-# Geschäftliche Bewertung
+### Geschäftliche Bewertung
 
 Die Analyse verdeutlicht, dass die Unternehmenssteuerung nicht ausschließlich auf Umsatzkennzahlen basieren sollte. Erst die Kombination aus Umsatz, Gewinnmarge und Retourenquote liefert ein realistisches Bild der wirtschaftlichen Leistungsfähigkeit einzelner Produktkategorien.
 
@@ -297,7 +313,7 @@ Die Ergebnisse sprechen dafür, Ressourcen gezielt auf margenstarke und gleichze
 
 ---
 
-# Handlungsempfehlungen
+### Handlungsempfehlungen
 - Beauty gezielt durch Marketing- und Sortimentsmaßnahmen weiterentwickeln.
 - Home & Kitchen als strategisches Kernportfolio kontinuierlich stärken.
 - Ursachen der hohen Retourenquote im Segment Electronics analysieren und reduzieren.
@@ -307,7 +323,7 @@ Die Ergebnisse sprechen dafür, Ressourcen gezielt auf margenstarke und gleichze
 
 ---
 
-# Risiken und Annahmen
+### Risiken und Annahmen
 
 - Die Analyse berücksichtigt keine Lager-, Logistik- oder Marketingkosten auf Kategorieebene.
 - Saisonale Nachfrageeffekte wurden nicht separat untersucht.
@@ -316,14 +332,15 @@ Die Ergebnisse sprechen dafür, Ressourcen gezielt auf margenstarke und gleichze
 
 ---
 
-# Fazit
+### Fazit
 
 Die Analyse widerlegt die Annahme, dass die umsatzstärkste Kategorie automatisch den höchsten wirtschaftlichen Beitrag leistet. Während Electronics vor allem als Umsatztreiber fungiert, überzeugen Beauty und Home & Kitchen durch ihre deutlich attraktivere Profitabilität. Für eine nachhaltige Unternehmensentwicklung sollten zukünftige Sortiments- und Investitionsentscheidungen auf einer ganzheitlichen Bewertung aus Umsatz, Marge und Retourenquote basieren.
 
 
-# Case C. Rabattstrategie und Kundenbindung
 
-## Management Fragestellung
+## Case C. Rabattstrategie und Kundenbindung
+
+### Management Fragestellung
 
 Beeinflussen hohe Rabatte die langfristige Kundenbindung?
 
@@ -331,7 +348,7 @@ Ziel dieser Analyse ist es zu untersuchen, ob Kunden mit hohen durchschnittliche
 
 ---
 
-## Executive Insight
+### Executive Insight
 
 Bereits die Analyse der Rabattstufen zeigte, dass höhere Rabatte weder den Bestellwert noch das Bestellvolumen nachhaltig steigern.
 
@@ -341,7 +358,7 @@ Die Ergebnisse sprechen dafür, dass hohe Rabatte kurzfristig keinen erkennbaren
 
 ---
 
-## Analyse
+### Analyse
 
 Die Bewertung erfolgte in zwei Schritten.
 
@@ -350,8 +367,6 @@ Die Bewertung erfolgte in zwei Schritten.
 Zunächst wurde untersucht, wie sich unterschiedliche Rabattstufen auf Bestellvolumen und durchschnittlichen Bestellwert auswirken.
 
 ### Visualisierung
-
-*Dashboard: Rabatte vs. Bestellwert*
 
 <img width="602" height="767" alt="image" src="https://github.com/user-attachments/assets/1c41d443-6b6b-46eb-bea4-858900cc9c9b" />
 
@@ -378,7 +393,7 @@ Für beide Gruppen wurde anschließend die durchschnittliche Anzahl der Bestellu
 
 ---
 
-## Management Snapshot
+### Management Snapshot
 
 | Kundengruppe | Durchschnittlicher Rabatt | Bestellungen pro Kunde |
 |--------------|--------------------------:|-----------------------:|
@@ -387,7 +402,7 @@ Für beide Gruppen wurde anschließend die durchschnittliche Anzahl der Bestellu
 
 ---
 
-## Interpretation
+### Interpretation
 
 Die Kombination beider Analysen liefert ein konsistentes Bild.
 
@@ -397,7 +412,7 @@ Damit liefern hohe Rabatte in diesem Datensatz weder einen klaren kurzfristigen 
 
 ---
 
-## Wesentliche Erkenntnisse
+### Wesentliche Erkenntnisse
 
 - Höhere Rabatte steigern den durchschnittlichen Bestellwert nicht.
 - Rabattorientierte Kunden bestellen langfristig deutlich seltener.
@@ -405,13 +420,13 @@ Damit liefern hohe Rabatte in diesem Datensatz weder einen klaren kurzfristigen 
 
 ---
 
-## Geschäftliche Bewertung
+### Geschäftliche Bewertung
 
 Die Ergebnisse sprechen dafür, Rabattaktionen gezielter einzusetzen und stärker auf langfristige Kundenbindung statt auf kurzfristige Absatzsteigerung auszurichten.
 
 ---
 
-## Handlungsempfehlungen
+### Handlungsempfehlungen
 
 - Rabatte gezielt für die Neukundengewinnung oder saisonale Kampagnen einsetzen.
 - Stammkunden stärker über Loyalty-Programme und personalisierte Angebote binden.
@@ -419,22 +434,23 @@ Die Ergebnisse sprechen dafür, Rabattaktionen gezielter einzusetzen und stärke
 
 ---
 
-## Risiken und Annahmen
+### Risiken und Annahmen
 
 Die Analyse zeigt statistische Zusammenhänge, erlaubt jedoch keine Aussage über eine ursächliche Wirkung von Rabatten auf das Bestellverhalten. Weitere Einflussfaktoren wie Produkttyp, Marketingkanal oder Kundensegment wurden in dieser Auswertung nicht berücksichtigt.
 
 ---
 
-## Fazit
+### Fazit
 
 Die beiden Analysen ergänzen sich zu einem gemeinsamen Management-Insight:
 
 Hohe Rabatte zeigen in diesem Datensatz weder einen nachhaltigen positiven Effekt auf den Bestellwert noch auf die Kundenbindung. Eine langfristig erfolgreiche Rabattstrategie sollte daher gezielt eingesetzt und durch weitere Maßnahmen zur Kundenbindung ergänzt werden.
 
 
-# Case D. Umsatzkonzentration und Analyse der TOP-5-%-Kunden
 
-## Management Fragestellung
+## Case D. Umsatzkonzentration und Analyse der TOP-5-%-Kunden
+
+### Management Fragestellung
 
 Wie stark konzentriert sich der Unternehmensumsatz auf wenige Kunden und wodurch unterscheiden sich die umsatzstärksten Kunden von der übrigen Kundenbasis?
 
@@ -442,7 +458,7 @@ Ziel dieser Analyse ist es, die Bedeutung der wertvollsten Kunden für den Unter
 
 ---
 
-## Executive Insight
+### Executive Insight
 
 Die Analyse zeigt eine deutliche Umsatzkonzentration: Die TOP-5-% der Kunden generieren 34,6 % des gesamten Unternehmensumsatzes.
 
@@ -452,7 +468,7 @@ Diese Ergebnisse unterstreichen die hohe strategische Bedeutung dieses Kundenseg
 
 ---
 
-## Analyse
+### Analyse
 
 Zunächst wurde mithilfe einer Pareto-Analyse untersucht, wie sich der Gesamtumsatz auf die Kundenbasis verteilt.
 
@@ -467,7 +483,7 @@ Dashboard: Pareto-Analyse der Kundenumsätze
 
 ---
 
-## Management Snapshot
+### Management Snapshot
 
 | KPI | Übrige Kunden | TOP 5 % |
 |-----|--------------:|---------:|
@@ -478,7 +494,7 @@ Dashboard: Pareto-Analyse der Kundenumsätze
 
 ---
 
-## Interpretation
+### Interpretation
 
 Die Pareto-Analyse bestätigt eine starke Umsatzkonzentration innerhalb der Kundenbasis.
 
@@ -488,7 +504,7 @@ Der Vergleich zeigt, dass dieser Umsatz nicht allein durch höhere Bestellwerte 
 
 ---
 
-## Wesentliche Erkenntnisse
+### Wesentliche Erkenntnisse
 
 - Die TOP-5-% der Kunden erwirtschaften 34,6 % des Gesamtumsatzes.
 - Der Umsatz pro Kunde ist rund 10-mal höher als bei der übrigen Kundenbasis.
@@ -497,7 +513,7 @@ Der Vergleich zeigt, dass dieser Umsatz nicht allein durch höhere Bestellwerte 
 
 ---
 
-## Geschäftliche Bewertung
+### Geschäftliche Bewertung
 
 Die Ergebnisse zeigen, dass der wirtschaftliche Erfolg des Unternehmens in hohem Maße von einem vergleichsweise kleinen Kundensegment abhängt.
 
@@ -505,7 +521,7 @@ Investitionen in die Bindung dieser Kunden können einen deutlich höheren wirts
 
 ---
 
-## Handlungsempfehlungen
+### Handlungsempfehlungen
 
 - VIP- und Loyalty-Programme gezielt auf die TOP-5-%-Kunden ausrichten.
 - Personalisierte Angebote und exklusive Vorteile für dieses Kundensegment entwickeln.
@@ -514,25 +530,26 @@ Investitionen in die Bindung dieser Kunden können einen deutlich höheren wirts
 
 ---
 
-## Risiken und Annahmen
+### Risiken und Annahmen
 
 Die Analyse basiert ausschließlich auf historischen Umsatzdaten. Weitere Einflussfaktoren wie Kundenzufriedenheit, Marketingmaßnahmen oder zukünftiges Kaufverhalten wurden nicht berücksichtigt.
 
 ---
 
-## Fazit
+### Fazit
 
 Die Analyse bestätigt eine ausgeprägte Umsatzkonzentration innerhalb der Kundenbasis. Die TOP-5-%-Kunden leisten einen überproportionalen Beitrag zum Unternehmenserfolg und unterscheiden sich deutlich hinsichtlich Kaufhäufigkeit, durchschnittlichem Bestellwert und Umsatz pro Kunde.
 
 Aus strategischer Sicht stellt dieses Kundensegment einen der wichtigsten Hebel für nachhaltiges Umsatzwachstum und langfristige Kundenbindung dar.
 
 
-# Case E. A/B-Test des Checkout-Designs
+
+## Case E. A/B-Test des Checkout-Designs
 
 <img width="1364" height="769" alt="image" src="https://github.com/user-attachments/assets/c72a0b15-883c-4d75-a8bf-f53d9590cefb" />
 
 
-## Fazit
+### Fazit
 
 Der aggregierte Vergleich deutet zunächst darauf hin, dass Variante B den durchschnittlichen Bestellwert leicht verbessert (+2 %).
 
@@ -543,9 +560,10 @@ Dieses Ergebnis verdeutlicht die Bedeutung einer segmentierten Auswertung und il
 Empfehlung: Variante B zunächst gezielt für Neukunden ausrollen und den Effekt anschließend in einem kontrollierten Rollout weiter beobachten, anstatt die neue Version unmittelbar für alle Kunden einzuführen.
 
 
-## Zusätzliche Analyse: Geräteperformance
 
-### Visualisierung
+### Zusätzliche Analyse: Geräteperformance
+
+#### Visualisierung
 
 <img width="1439" height="250" alt="image" src="https://github.com/user-attachments/assets/4d12a43f-c3c9-484e-8898-62b57af911d1" />
 
@@ -557,9 +575,10 @@ Gleichzeitig unterscheiden sich die durchschnittlichen Bestellwerte zwischen den
 Empfehlung: Die Optimierung der mobilen User Experience sollte weiterhin Priorität haben, da Verbesserungen auf mobilen Geräten den größten Einfluss auf den Gesamtumsatz erwarten lassen.
 
 
-## Zusätzliche Analyse: Versandoptionen
 
-### Visualisierung
+### Zusätzliche Analyse: Versandoptionen
+
+#### Visualisierung
 
 <img width="1438" height="224" alt="image" src="https://github.com/user-attachments/assets/01a1098a-b448-4d34-804d-a4fcfea76512" />
 
@@ -572,4 +591,29 @@ Empfehlung: Kostenlosen Versand gezielt als Marketinginstrument einsetzen und di
 
 
 
+# 5. Strategische Empfehlungen
+
+- Marketingbudget zugunsten der Kanäle Organic, Influencer und Referral umverteilen
+
+- Beauty und Home & Kitchen stärker fördern, da diese Kategorien hohe Margen erzielen
+
+- Rabattaktionen gezielt einsetzen und nicht als allgemeines Wachstumsinstrument verwenden
+
+- VIP- und Loyalty-Programme für die umsatzstärksten 5 % der Kunden ausbauen
+
+- Mobile Customer Experience sowie die Vorbereitung auf das Weihnachtsgeschäft priorisieren
+
+
+
+# 6. Grenzen der Analyse
+
+- Die Analyse basiert ausschließlich auf historischen Transaktionsdaten
+
+- Externe Einflussfaktoren wie Wettbewerbsaktivitäten, Marketingkampagnen oder makroökonomische Entwicklungen wurden nicht berücksichtigt
+
+- Die Ergebnisse zeigen statistische Zusammenhänge
+
+- Die Profitabilität wurde anhand der verfügbaren Umsatz-, Margen- und Retourendaten bewertet; weitere Kostenfaktoren konnten nicht berücksichtigt werden
+
+- Die Handlungsempfehlungen beziehen sich ausschließlich auf den analysierten Zeitraum und sollten regelmäßig anhand neuer Daten überprüft werden
 
