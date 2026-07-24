@@ -208,3 +208,117 @@ Besonders Organic Marketing, Influencer-Marketing und Referral überzeugen sowoh
 
 Die kombinierte Betrachtung von ROI und Customer Lifetime Value liefert eine belastbare Entscheidungsgrundlage für die zukünftige Marketingstrategie. Die Ergebnisse sprechen eindeutig für eine stärkere Fokussierung auf Organic Marketing, Influencer-Marketing und Referral-Programme, während Paid Search und Social Ads hinsichtlich ihrer Wirtschaftlichkeit konsequent optimiert beziehungsweise kritisch hinterfragt werden sollten.
 
+
+# Case B. Produktportfolio strategisch bewerten
+
+## Management Fragestellung
+
+Welche Produktkategorien schaffen den größten wirtschaftlichen Mehrwert? Welche Kategorien erzeugen lediglich hohe Umsätze und welche besitzen das größte strategische Wachstumspotenzial?
+
+---
+
+## Management Summary
+
+Die Analyse zeigt, dass hohe Umsätze nicht zwangsläufig eine hohe Profitabilität bedeuten. Während Electronics den Großteil des Gesamtumsatzes generiert, weist die Kategorie gleichzeitig die niedrigste Marge sowie eine überdurchschnittlich hohe Retourenquote auf. Im Gegensatz dazu erzielt Beauty trotz vergleichsweise geringer Umsätze die höchste Marge bei gleichzeitig niedriger Retourenquote und stellt damit den attraktivsten Wachstumskandidaten innerhalb des Produktportfolios dar.
+
+---
+
+### 1. Analyse der Produktkategorien
+
+## Zielsetzung
+
+Bewertung der Produktkategorien anhand von drei zentralen Leistungskennzahlen:
+
+- Gesamtumsatz
+- Durchschnittliche Gewinnmarge
+- Retourenquote
+
+### Visualisierung
+
+<img width="781" height="777" alt="image" src="https://github.com/user-attachments/assets/26f5f92e-161b-49ee-a85a-afd3e34a35db" />
+
+
+### Management Snapshot
+
+| Kategorie | Umsatz | Marge | Retouren | Bewertung |
+|-----------|--------:|-------:|----------:|-----------|
+| Electronics | 2,10 Mio. USD | 12 % | 15,97 % | Umsatztreiber mit geringer Profitabilität |
+| Home & Kitchen | 0,58 Mio. USD | 35 % | 10,27 % | Ausgewogenes Kernportfolio |
+| Sports | 0,34 Mio. USD | 30 % | 8,40 % | Solide Performance |
+| Clothing | 0,25 Mio. USD | 45 % | 16,00 % | Hohe Marge, jedoch hohe Retouren |
+| Beauty | 0,17 Mio. USD | 55 % | 9,97 % | Hidden Gem |
+| Toys | 0,14 Mio. USD | 40 % | 8,98 % | Überdurchschnittliche Profitabilität |
+| Books | 0,09 Mio. USD | 25 % | 8,13 % | Geringe wirtschaftliche Relevanz |
+
+---
+
+### 2. Strategische Bewertung des Produktportfolios
+
+Die gemeinsame Betrachtung von Umsatz, Marge und Retourenquote ermöglicht eine deutlich fundiertere Bewertung der Produktkategorien als die isolierte Analyse einzelner Kennzahlen.
+
+Während Electronics den höchsten Umsatz erzielt, reduziert die Kombination aus niedriger Marge und hoher Retourenquote die tatsächliche Profitabilität erheblich.
+
+Demgegenüber erwirtschaftet Beauty trotz geringer Umsatzanteile die höchste Marge bei gleichzeitig niedrigen Retouren und besitzt damit das größte strategische Wachstumspotenzial.
+
+Home & Kitchen zeigt das ausgewogenste Verhältnis zwischen Umsatz, Profitabilität und Retourenquote und bildet damit das stabile Kerngeschäft des Unternehmens.
+
+---
+
+# Portfolioklassifizierung
+
+| Kategorie | Strategische Rolle |
+|------------|-------------------|
+| Electronics | Umsatztreiber |
+| Home & Kitchen | Kernportfolio |
+| Beauty | Hidden Gem |
+| Toys | Profitabler Nischenmarkt |
+| Sports | Solides Wachstumspotenzial |
+| Clothing | Optimierungskandidat |
+| Books | Niedrige strategische Priorität |
+
+---
+
+# Wesentliche Erkenntnisse
+
+- Hohe Umsätze sind kein verlässlicher Indikator für hohe Profitabilität.
+- Electronics erzeugt den größten Umsatz, weist jedoch die niedrigste Marge sowie die höchste Retourenquote auf.
+- Beauty erzielt die höchste Marge bei gleichzeitig moderater Retourenquote und stellt die attraktivste Wachstumskategorie dar.
+- Home & Kitchen verbindet stabile Umsätze mit einer ausgewogenen Profitabilität und bildet das wirtschaftliche Kernportfolio.
+- Clothing erzielt zwar hohe Margen, verliert jedoch einen Teil dieses Vorteils durch eine überdurchschnittlich hohe Retourenquote.
+- Toys erreicht trotz geringer Umsätze eine attraktive Profitabilität und sollte als profitable Nischenkategorie weiterentwickelt werden.
+
+---
+
+# Geschäftliche Bewertung
+
+Die Analyse verdeutlicht, dass die Unternehmenssteuerung nicht ausschließlich auf Umsatzkennzahlen basieren sollte. Erst die Kombination aus Umsatz, Gewinnmarge und Retourenquote liefert ein realistisches Bild der wirtschaftlichen Leistungsfähigkeit einzelner Produktkategorien.
+
+Die Ergebnisse sprechen dafür, Ressourcen gezielt auf margenstarke und gleichzeitig stabile Kategorien zu konzentrieren, anstatt ausschließlich umsatzstarke Produktgruppen weiter auszubauen.
+
+---
+
+# Handlungsempfehlungen
+- Beauty gezielt durch Marketing- und Sortimentsmaßnahmen weiterentwickeln.
+- Home & Kitchen als strategisches Kernportfolio kontinuierlich stärken.
+- Ursachen der hohen Retourenquote im Segment Electronics analysieren und reduzieren.
+- Clothing hinsichtlich Produktqualität, Größenberatung und Retourenmanagement optimieren.
+- Toys als profitable Nischenkategorie gezielt fördern.
+- Erfolgsmessung zukünftiger Sortimentsentscheidungen grundsätzlich auf Umsatz, Marge und Retourenquote kombinieren.
+
+---
+
+# Risiken und Annahmen
+
+- Die Analyse berücksichtigt keine Lager-, Logistik- oder Marketingkosten auf Kategorieebene.
+- Saisonale Nachfrageeffekte wurden nicht separat untersucht.
+- Durchschnittliche Margen können Unterschiede innerhalb einzelner Produktgruppen verdecken.
+- Eine Reduzierung umsatzstarker Kategorien kann kurzfristige Auswirkungen auf den Gesamtumsatz haben.
+
+---
+
+# Fazit
+
+Die Analyse widerlegt die Annahme, dass die umsatzstärkste Kategorie automatisch den höchsten wirtschaftlichen Beitrag leistet. Während Electronics vor allem als Umsatztreiber fungiert, überzeugen Beauty und Home & Kitchen durch ihre deutlich attraktivere Profitabilität. Für eine nachhaltige Unternehmensentwicklung sollten zukünftige Sortiments- und Investitionsentscheidungen auf einer ganzheitlichen Bewertung aus Umsatz, Marge und Retourenquote basieren.
+
+
+
