@@ -430,3 +430,146 @@ Die Analyse zeigt statistische Zusammenhänge, erlaubt jedoch keine Aussage übe
 Die beiden Analysen ergänzen sich zu einem gemeinsamen Management-Insight:
 
 Hohe Rabatte zeigen in diesem Datensatz weder einen nachhaltigen positiven Effekt auf den Bestellwert noch auf die Kundenbindung. Eine langfristig erfolgreiche Rabattstrategie sollte daher gezielt eingesetzt und durch weitere Maßnahmen zur Kundenbindung ergänzt werden.
+
+
+# Case D. Umsatzkonzentration und Analyse der TOP-5-%-Kunden
+
+## Management Fragestellung
+
+Wie stark konzentriert sich der Unternehmensumsatz auf wenige Kunden und wodurch unterscheiden sich die umsatzstärksten Kunden von der übrigen Kundenbasis?
+
+Ziel dieser Analyse ist es, die Bedeutung der wertvollsten Kunden für den Unternehmenserfolg zu bewerten und Ansatzpunkte für eine gezielte Kundenbindungsstrategie abzuleiten.
+
+---
+
+## Executive Insight
+
+Die Analyse zeigt eine deutliche Umsatzkonzentration: Die TOP-5-% der Kunden generieren 34,6 % des gesamten Unternehmensumsatzes.
+
+Im Vergleich zur übrigen Kundenbasis erzielen diese Kunden einen 10-fach höheren Umsatz pro Kunde, tätigen viermal mehr Bestellungen und weisen einen 2,6-fach höheren durchschnittlichen Bestellwert auf.
+
+Diese Ergebnisse unterstreichen die hohe strategische Bedeutung dieses Kundensegments für das langfristige Unternehmenswachstum.
+
+---
+
+## Analyse
+
+Zunächst wurde mithilfe einer Pareto-Analyse untersucht, wie sich der Gesamtumsatz auf die Kundenbasis verteilt.
+
+Anschließend wurden die TOP-5-%-Kunden mit allen übrigen Kunden hinsichtlich ihrer Kaufaktivität und ihres Umsatzverhaltens verglichen.
+
+### Visualisierung
+
+Dashboard: Pareto-Analyse der Kundenumsätze
+
+<img width="1442" height="765" alt="image" src="https://github.com/user-attachments/assets/50ec89a6-0fd5-449e-b222-5bcb8ad90c07" />
+
+
+---
+
+## Management Snapshot
+
+| KPI | Übrige Kunden | TOP 5 % |
+|-----|--------------:|---------:|
+| Revenue Share | 65,4 % | 34,6 % |
+| Revenue per Customer | $705 | $7.081 |
+| Average Order Value | $216 | $554 |
+| Orders per Customer | 3,27 | 13,21 |
+
+---
+
+## Interpretation
+
+Die Pareto-Analyse bestätigt eine starke Umsatzkonzentration innerhalb der Kundenbasis.
+
+Obwohl die TOP-5-% nur einen kleinen Teil aller Kunden ausmachen, erwirtschaften sie mehr als ein Drittel des Gesamtumsatzes.
+
+Der Vergleich zeigt, dass dieser Umsatz nicht allein durch höhere Bestellwerte entsteht. Vielmehr bestellen diese Kunden deutlich häufiger und erzielen gleichzeitig einen wesentlich höheren durchschnittlichen Warenkorb.
+
+---
+
+## Wesentliche Erkenntnisse
+
+- Die TOP-5-% der Kunden erwirtschaften 34,6 % des Gesamtumsatzes.
+- Der Umsatz pro Kunde ist rund 10-mal höher als bei der übrigen Kundenbasis.
+- TOP-Kunden bestellen etwa viermal häufiger.
+- Gleichzeitig liegt ihr durchschnittlicher Bestellwert rund 2,6-mal höher.
+
+---
+
+## Geschäftliche Bewertung
+
+Die Ergebnisse zeigen, dass der wirtschaftliche Erfolg des Unternehmens in hohem Maße von einem vergleichsweise kleinen Kundensegment abhängt.
+
+Investitionen in die Bindung dieser Kunden können einen deutlich höheren wirtschaftlichen Nutzen erzielen als breit angelegte Maßnahmen für die gesamte Kundenbasis.
+
+---
+
+## Handlungsempfehlungen
+
+- VIP- und Loyalty-Programme gezielt auf die TOP-5-%-Kunden ausrichten.
+- Personalisierte Angebote und exklusive Vorteile für dieses Kundensegment entwickeln.
+- Frühzeitig Indikatoren für Abwanderungsrisiken identifizieren und geeignete Retention-Maßnahmen einleiten.
+- Die Entwicklung des Umsatzanteils der TOP-Kunden regelmäßig überwachen.
+
+---
+
+## Risiken und Annahmen
+
+Die Analyse basiert ausschließlich auf historischen Umsatzdaten. Weitere Einflussfaktoren wie Kundenzufriedenheit, Marketingmaßnahmen oder zukünftiges Kaufverhalten wurden nicht berücksichtigt.
+
+---
+
+## Fazit
+
+Die Analyse bestätigt eine ausgeprägte Umsatzkonzentration innerhalb der Kundenbasis. Die TOP-5-%-Kunden leisten einen überproportionalen Beitrag zum Unternehmenserfolg und unterscheiden sich deutlich hinsichtlich Kaufhäufigkeit, durchschnittlichem Bestellwert und Umsatz pro Kunde.
+
+Aus strategischer Sicht stellt dieses Kundensegment einen der wichtigsten Hebel für nachhaltiges Umsatzwachstum und langfristige Kundenbindung dar.
+
+
+# Case E. A/B-Test des Checkout-Designs
+
+<img width="1364" height="769" alt="image" src="https://github.com/user-attachments/assets/c72a0b15-883c-4d75-a8bf-f53d9590cefb" />
+
+
+## Fazit
+
+Der aggregierte Vergleich deutet zunächst darauf hin, dass Variante B den durchschnittlichen Bestellwert leicht verbessert (+2 %).
+
+Die Segmentanalyse zeigt jedoch ein differenzierteres Bild: Der positive Effekt entsteht fast ausschließlich bei Neukunden (+19 %), während sich bei Bestandskunden praktisch kein relevanter Unterschied (+1 %) beobachten lässt.
+
+Dieses Ergebnis verdeutlicht die Bedeutung einer segmentierten Auswertung und illustriert den Simpson-Paradoxon-Effekt: Aggregierte Kennzahlen können wichtige Unterschiede zwischen Kundengruppen verdecken.
+
+Empfehlung: Variante B zunächst gezielt für Neukunden ausrollen und den Effekt anschließend in einem kontrollierten Rollout weiter beobachten, anstatt die neue Version unmittelbar für alle Kunden einzuführen.
+
+
+## Zusätzliche Analyse: Geräteperformance
+
+### Visualisierung
+
+<img width="1439" height="250" alt="image" src="https://github.com/user-attachments/assets/4d12a43f-c3c9-484e-8898-62b57af911d1" />
+
+
+Die Analyse zeigt, dass mobile Endgeräte den größten Umsatzbeitrag leisten und damit den wichtigsten Vertriebskanal im Online-Shop darstellen.
+
+Gleichzeitig unterscheiden sich die durchschnittlichen Bestellwerte zwischen den Geräten nur geringfügig (ca. **271–299 $**). Die Ergebnisse deuten darauf hin, dass die Umsatzunterschiede hauptsächlich durch das Bestellvolumen und nicht durch ein abweichendes Kaufverhalten pro Bestellung entstehen.
+
+Empfehlung: Die Optimierung der mobilen User Experience sollte weiterhin Priorität haben, da Verbesserungen auf mobilen Geräten den größten Einfluss auf den Gesamtumsatz erwarten lassen.
+
+
+## Zusätzliche Analyse: Versandoptionen
+
+### Visualisierung
+
+<img width="1438" height="224" alt="image" src="https://github.com/user-attachments/assets/01a1098a-b448-4d34-804d-a4fcfea76512" />
+
+
+Die Analyse zeigt, dass kostenloser Versand den überwiegenden Teil des Unternehmensumsatzes generiert und gleichzeitig mit einem deutlich höheren durchschnittlichen Bestellwert verbunden ist.
+
+Allerdings weist diese Versandoption auch eine nahezu doppelt so hohe Retourenquote auf (**10,7 %** gegenüber 5,8 % bei kostenpflichtigem Versand). Dies deutet darauf hin, dass größere Warenkörbe zwar den Umsatz steigern, gleichzeitig jedoch das Risiko von Rücksendungen erhöhen.
+
+Empfehlung: Kostenlosen Versand gezielt als Marketinginstrument einsetzen und die Retourenkosten kontinuierlich überwachen, um die Profitabilität sicherzustellen.
+
+
+
+
