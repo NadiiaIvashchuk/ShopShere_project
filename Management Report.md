@@ -4,18 +4,18 @@
 
 # Inhalt
 
-1. Projektübersicht
+1. [Projektübersicht](https://github.com/NadiiaIvashchuk/ShopShere_project/blob/main/Management%20Report.md#1-projekt%C3%BCbersicht)
    - Zielsetzung
    - Verwendete Technologien
 
-2. Management Summary
+2. [Management Summary](https://github.com/NadiiaIvashchuk/ShopShere_project/blob/main/Management%20Report.md#2-management-summary)
 
-3. Dashboard-Konzept
+3. [Dashboard-Konzept](https://github.com/NadiiaIvashchuk/ShopShere_project/blob/main/Management%20Report.md#3-dashboard-architektur)
    - KPI-Übersicht
    - Dashboard-Struktur
    - Interaktive Funktionen
 
-4. Strategische Geschäftsanalysen
+4. [Strategische Geschäftsanalysen](https://github.com/NadiiaIvashchuk/ShopShere_project/blob/main/Management%20Report.md#4-strategische-gesch%C3%A4fsanalyse)
    4.1 Marketingbudget optimal verteilen
    4.2 Produktportfolio strategisch bewerten
    4.3 Rabattstrategie und Kundenbindung
@@ -24,9 +24,9 @@
    4.6 Zusätzliche Analyse: Versandoptionen
    4.7 Zusätzliche Analyse: Geräteperformance
 
-5. Strategische Empfehlungen
+5. [Strategische Empfehlungen](https://github.com/NadiiaIvashchuk/ShopShere_project/blob/main/Management%20Report.md#5-strategische-empfehlungen)
 
-6. Grenzen der Analyse
+6. [Grenzen der Analyse](https://github.com/NadiiaIvashchuk/ShopShere_project/blob/main/Management%20Report.md#6-grenzen-der-analyse)
 
 
 
