@@ -107,17 +107,12 @@ SELECT
         WHEN free_shipping = 1 THEN 'Free Shipping'
         ELSE 'Paid Shipping'
     END AS shipping,
-
     COUNT(*) AS orders,
-
     ROUND(AVG(net_amount),2) AS avg_order,
-
     ROUND(SUM(net_amount),2) AS revenue,
-
     ROUND(
         100.0*SUM(CASE WHEN is_returned=1 THEN 1 ELSE 0 END)
 /COUNT(*),2) AS return_rate
-
 FROM orders
 GROUP BY shipping;
 
@@ -130,16 +125,30 @@ CASE
     WHEN discount_amount * 100.0 / gross_amount < 25 THEN '15–25%'
     ELSE '25%+'
 END AS discount_group,
-
 COUNT(*) AS orders,
-
 ROUND(AVG(net_amount),2) AS avg_order,
-
 ROUND(SUM(net_amount),2) AS revenue
-
 FROM orders
-
 GROUP BY discount_group;
+
+-- Kundenbindung vs Rabattverhalte
+WITH customer_discount AS (
+SELECT	customer_id,
+		AVG(discount_amount * 100.0 / gross_amount) AS avg_discount,
+		COUNT(order_id) AS orders_cnt
+FROM orders
+GROUP BY customer_id
+)
+SELECT
+	CASE
+		WHEN avg_discount > 20 THEN 'High Discount (>20%)'
+		ELSE 'Regular Customers'
+	END AS customer_group,
+	COUNT(*) AS customers,
+	ROUND(AVG(avg_discount), 2) AS avg_discounts,
+	ROUND(AVG(orders_cnt),2) AS avg_orders_per_customer
+FROM customer_discount
+GROUP BY customer_group;
 
 -- LTV
 WITH customer_ltv AS (
@@ -188,9 +197,7 @@ SELECT
 FROM customers c
 JOIN orders o
 ON c.customer_id = o.customer_id
-
 GROUP BY age_group
-
 ORDER BY
 CASE
     WHEN age_group='18–24' THEN 1
